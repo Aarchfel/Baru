@@ -25,7 +25,7 @@ Plan your tasks, keep your notes, manage your time, and shape a workspace that w
 
 <br />
 
-[Overview](#-overview) · [Features](#-features) · [Tech Stack](#-tech-stack) · [Roadmap](#-roadmap) · [Getting Started](#-getting-started)
+[Overview](#-overview) · [Features](#-features) · [Tech Stack](#tech-stack) · [Roadmap](#roadmap) · [Getting Started](#getting-started)
 
 <br />
 
