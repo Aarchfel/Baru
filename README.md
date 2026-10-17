@@ -283,9 +283,10 @@ There is no universal `z-index: 999999` that guarantees a widget will appear abo
 
 Baru will explore these capabilities while prioritizing practical behavior and compatibility.
 
-Initial development focuses on Linux, with particular interest in KDE Plasma. Support for other desktop environments will depend on implementation and testing.
-
-Identical behavior across every desktop environment cannot be guaranteed.
+> [!IMPORTANT]
+> Initial development focuses on Linux, with particular interest in KDE Plasma. Support for other desktop environments will depend on implementation and testing.
+>
+> ``Identical behavior across every desktop environment cannot be guaranteed.``
 
 <br />
 
