@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>icons/titlebar/minimize.svg</file>
+    <file>icons/titlebar/maximize.svg</file>
+    <file>icons/titlebar/close.svg</file>
+    <file>icons/titlebar/separatewindow.svg</file>
+    <file>icons/titlebar/fish.svg</file>
+    <file>icons/titlebar/plate.svg</file>
+  </qresource>
+</RCC>

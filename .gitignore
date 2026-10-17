@@ -1,0 +1,24 @@
+# ==============================================
+#
+#             .gitignore typeshit
+#
+# ==============================================
+
+# Could be changed soon!
+
+# Build
+target/
+build/
+
+# Temporary
+tmp/
+
+# Testing
+test/
+
+# Output
+output/
+
+# Environment
+.env
+.env.*
