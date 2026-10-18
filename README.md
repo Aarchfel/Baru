@@ -1,5 +1,5 @@
 > [!WARNING]
-> *Baru is still a `work in progress`. Things may change, features may break, and the documentation might occasionally struggle to keep up.*
+> *Baru is still a `work in progress` and is currently in early development. Things may change, features may break, and the documentation might occasionally struggle to keep up.*
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 [![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://www.qt.io/)
 [![QML](https://img.shields.io/badge/QML-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qt-6/qmlapplications.html)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-orange?style=for-the-badge)](#-development-status)
+[![Status](https://img.shields.io/badge/Status-Work%20in%20Progress-orange?style=for-the-badge)](#development-status)
 
 <br />
 
