@@ -8,7 +8,7 @@ Rectangle {
     property ApplicationWindow window
 
     width: parent.width
-    height: 80
+    height: 65
 
     topLeftRadius: 9
     topRightRadius: 9
@@ -18,14 +18,20 @@ Rectangle {
 
     color: "#25272B"
 
-    //            FontLoader
+    //            MouseArea
     // =================================
 
-    FontLoader {
-        id: inter
+    MouseArea {
+        anchors.fill: parent
+        acceptedButtons: Qt.LeftButton
 
-        source: "qrc:/fonts/fonts/Inter-VariableFont_opsz,wght.ttf"
+        onPressed: {
+            root.window.startSystemMove();
+        }
     }
+
+    //            FontLoader
+    // =================================
 
     FontLoader {
         id: montserrat
@@ -66,7 +72,7 @@ Rectangle {
                 Text {
                     id: mainTitle
                     text: "Baru"
-                    font.family: inter.name
+                    font.family: montserrat.name
                     font.pixelSize: 26
                     font.weight: Font.ExtraBold
                     color: "#e1ebea"
@@ -75,10 +81,10 @@ Rectangle {
                 Text {
                     id: subtitleText
                     text: "Personal Productivity App"
-                    font.family: inter.name
+                    font.family: montserrat.name
                     font.pixelSize: 15
                     font.weight: Font.Medium
-                    color: "#9eb0af"
+                    color: "#D1D1D1"
 
                     anchors.left: mainTitle.right
                     anchors.leftMargin: 8
@@ -90,9 +96,10 @@ Rectangle {
                 id: taglineText
                 text: "“Do It, Learn It, Try It”"
                 font.family: montserrat.name
-                font.pixelSize: 12
-                font.weight: Font.Medium
-                color: "#636968"
+                font.italic: true
+                font.pixelSize: 13
+                font.weight: Font.Normal
+                color: "#C2C2C2"
             }
         }
     }

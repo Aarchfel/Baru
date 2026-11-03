@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import "components"
+import "components/TitleBar"
 
 ApplicationWindow {
     id: window
@@ -9,12 +10,18 @@ ApplicationWindow {
     width: 1100
     height: 650
 
+    minimumWidth: 600
+    minimumHeight: 400
+
     flags: Qt.FramelessWindowHint | Qt.Window
     color: "transparent"
 
+    //            TitleBar
+    // ===============================
+
     Rectangle {
         anchors.fill: parent
-        radius: 14
+        radius: window.visibility === Window.Maximized ? 0 : 9
         color: "#202124"
 
         border.width: 1
@@ -22,8 +29,16 @@ ApplicationWindow {
 
         clip: true
 
+        WindowDragArea {
+            targetWindow: window
+            anchors.fill: parent
+            z: 10
+        }
+
         TitleBar {
             id: titleBar
+
+            z: 9
 
             anchors.top: parent.top
             anchors.left: parent.left
