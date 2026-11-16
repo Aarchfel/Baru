@@ -10,8 +10,8 @@ Rectangle {
     width: parent.width
     height: 65
 
-    topLeftRadius: 9
-    topRightRadius: 9
+    topLeftRadius: window.visibility === Window.Maximized ? 0 : 9
+    topRightRadius: window.visibility === Window.Maximized ? 0 : 9
 
     border.width: 1
     border.color: "#3a3d4a"
